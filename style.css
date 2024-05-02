@@ -1,0 +1,121 @@
+ *{
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+
+.header,
+.footer {
+   background-color: #1f2937;
+   
+
+}
+.header{
+  display: flex;
+  flex: 2 1 3;
+  
+
+
+}
+
+.links-to-pages{
+    color: white;
+    font-size: 24px;
+
+  
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: end;
+    margin: 30px;
+}
+a, a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  height: 100px;
+  margin: 30px;
+
+}
+
+.landing-page {
+    background-color: #1f2937;
+    display: flex;
+    
+    justify-content: center;
+    flex: 1;
+    height: 350px;
+}
+.hero-title{
+    font-size: 48px;
+    color: #f9faf8;
+}
+.landing-text-title{
+    margin: 25px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+   
+
+}
+.button1{
+    background-color: #3882f6;
+    border-radius: 50px;
+    width: 100px;
+    height: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.House-images{
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    overflow: hidden;
+    height: 300px;
+    
+}
+
+.review-header {
+    display: flex;
+    justify-content: center;
+}
+.Middle{
+    display: flex;
+    width: 100px;
+    
+    padding: 5px;
+    justify-content: space-between;
+    
+    
+}
+
+.middle-images{
+    
+    flex: 1;
+    margin: 5px;
+    height: fit-content;
+    width: fit-content;
+   
+}
